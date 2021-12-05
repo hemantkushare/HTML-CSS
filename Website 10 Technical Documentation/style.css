@@ -1,0 +1,52 @@
+#main-doc{
+    display:flex;
+    width:100%;
+    font-family:arial, sans-serif;
+    font-size:16px;
+  }
+ 
+  #main-body
+ {
+     display:flex;
+     flex-direction:column;
+     width:75%;
+     padding:20px;
+     align-self:flex-start;
+     background:#cccccc;
+     font-family:arial, sans-serif;
+    font-size:16px;
+    }
+
+ #navbar{
+ 
+     padding:20px;
+     width:20%;
+     display:flex;
+     flex-direction:column;
+     background:#fcfcfc;
+     font-family:helvetica,arial, sans-serif;
+     font-size:16px;
+     }
+ 
+  #navbar ul li{
+ 
+    list-style-type:none;
+    padding:20px;
+    border:1px solid gray;
+ 
+ }
+ #navbar header h1{
+    text-align:right;
+ }
+ #navbar a{
+   text-decoration:none;
+   }
+ /* MOBILE Layout */
+ 
+ @media(max-width:400px)
+ {
+ #main-body{
+ 
+  background:cyan;
+  }
+  }
